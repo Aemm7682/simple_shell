@@ -19,12 +19,12 @@ void _eputs(char *str)
 }
 
 /**
- * _putchar - writes the char c to stderr
+ * _eputchar - writes the char c to stderr
  * @c: char to print
  * Return: on success 1
  * on error, -1 is returned, and errno is set
  */
-int _putchar(char c)
+int _eputchar(char c)
 {
 	static int i;
 	static char buf[WRITE_BUF_SIZE];
